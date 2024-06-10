@@ -22,7 +22,7 @@ public class FluentCalculatorTests
     [Test]
     public void Times_ShouldMultiplyTwoNumbers()
     {
-        var result = FluentCalculator.Four.Times(FluentCalculator.Two).Value;
+        var result = FluentCalculator.Four.Multiplication(FluentCalculator.Two).Value;
         Assert.AreEqual(8, result);
     }
 

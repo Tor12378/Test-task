@@ -23,7 +23,7 @@ public class FluentCalculator
 
     public FluentCalculator Plus(FluentCalculator other) => new FluentCalculator(_value + other._value);
     public FluentCalculator Minus(FluentCalculator other) => new FluentCalculator(_value - other._value);
-    public FluentCalculator Times(FluentCalculator other) => new FluentCalculator(_value * other._value);
+    public FluentCalculator Multiplication(FluentCalculator other) => new FluentCalculator(_value * other._value);
     public FluentCalculator DividedBy(FluentCalculator other)
     {
         if (other._value == 0)
